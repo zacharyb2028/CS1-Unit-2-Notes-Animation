@@ -1,1 +1,21 @@
+.box {
+    background:powderblue;
+    margin: 20px;
+    width: 100px;
+    height:100px;
+    text-align:center;
+}
 
+/* TRANSFORM is a propeerty with function values that change elements in various ways */
+
+#rotate {
+    transform:rotate(-30deg);
+}
+
+#scale {
+    transform:scale(0.5);
+    /* scale(1) is original
+    less than 1 is smaller
+    greater than 1 is bigger
+    */
+}
