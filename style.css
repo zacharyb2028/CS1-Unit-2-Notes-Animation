@@ -19,3 +19,17 @@
     greater than 1 is bigger
     */
 }
+
+#skew {
+    transform:skew(-30deg);
+}
+
+/* translate(x) moves to the right (if x is positive) translate(x,y) moves diagonally translate (0,y) moves down */
+#translate {
+    transform: translate(100px, -20px);
+}
+
+/* you can chain multiple transforms on the same element */
+#chain {
+    transform: rotate(95deg) skew(-30deg) ;
+}
